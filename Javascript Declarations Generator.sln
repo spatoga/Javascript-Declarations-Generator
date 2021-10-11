@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JSDeclarationsGenerator.Code", "JSDeclarationsGenerator.Code\JSDeclarationsGenerator.Code.csproj", "{257E29A6-DA2D-48FC-B364-355CE1402057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSDeclarationsGenerator.Test", "JSDeclarationsGenerator.Test\JSDeclarationsGenerator.Test.csproj", "{C799AF4F-C508-4D4B-9AB2-3F3E7302F324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{257E29A6-DA2D-48FC-B364-355CE1402057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257E29A6-DA2D-48FC-B364-355CE1402057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257E29A6-DA2D-48FC-B364-355CE1402057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257E29A6-DA2D-48FC-B364-355CE1402057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C799AF4F-C508-4D4B-9AB2-3F3E7302F324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C799AF4F-C508-4D4B-9AB2-3F3E7302F324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C799AF4F-C508-4D4B-9AB2-3F3E7302F324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C799AF4F-C508-4D4B-9AB2-3F3E7302F324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD8C0BC-4632-4A80-BE4F-CF6DD120FC90}
+	EndGlobalSection
+EndGlobal
