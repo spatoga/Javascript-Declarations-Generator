@@ -17,6 +17,9 @@ namespace JSDeclarationsGenerator.Test
             Console.WriteLine("Declarations:");
             Console.WriteLine(generator.GenerateDeclarations());
 
+            Console.WriteLine("Enter Any Key to Exit");
+            Console.ReadKey();
+
         }
     }
 }

@@ -183,7 +183,7 @@ namespace JSDeclarationsGenerator.Code.Models
                                     string option_value = child.Attributes["value"]?.Value;
                                     string option_text = child.Attributes["text"]?.Value ?? child.InnerText;
 
-                                    string option_label = option_value ?? option_text ?? "";
+                                    string option_label = option_text.Replace(' ', '_') ?? option_value ?? "";
 
                                     if (option_label != "")
                                     {
@@ -191,7 +191,7 @@ namespace JSDeclarationsGenerator.Code.Models
                                         string option_address = $"{thisElement.ID}__Options__{option_label}";
                                         string option_id = $"{thisElement.ID}_{index}";
 
-                                        if (IsValidAddress(option_address))
+                                        if (IsValidAddress(option_id))
                                         { 
                                             elements.Add(new Element(option_tag, option_address, option_id));
                                         }
