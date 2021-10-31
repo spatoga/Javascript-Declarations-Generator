@@ -15,8 +15,8 @@ namespace JSDeclarationsGenerator.Code.Models
         public bool ASPX_Mode { get; set; }
         public bool Include_Hard_Coded_Options { get; set; }
 
-        private string[] ASPX_Tags_To_Skip;
-        private string[] ASPX_Tags_With_Options;
+        public string[] ASPX_Tags_To_Skip;
+        public string[] ASPX_Tags_With_Options;
 
         private List<Element> elements;
 
@@ -29,6 +29,7 @@ namespace JSDeclarationsGenerator.Code.Models
             {
                 "asp:sqldatasource",
                 "asp:content",
+                "asp:literal",
             };
 
             ASPX_Tags_With_Options = new string[]
